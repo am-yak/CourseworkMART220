@@ -60,7 +60,7 @@ function draw()
   {
     i = 0;
   }
-  if (s >= fire.lenth)
+  if (s >= fire.length)
   {
     s = 0;
   }
