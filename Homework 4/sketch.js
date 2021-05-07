@@ -50,8 +50,9 @@ function draw()
   fill(0);
   textSize(20);
   text('Amber Yascavage', 830, 692);
-  image(fly[i], x, y);
   image(fire[s]);
+  image(fly[i], x, y);
+
 
   //counter for speedy
   i += 1;
@@ -60,7 +61,7 @@ function draw()
   {
     i = 0;
   }
-  if (s >= fire.length)
+  else (s >= fly.length)
   {
     s = 0;
   }
@@ -85,9 +86,9 @@ function draw()
       {
         x += 1;
       }
-      if(key == '')
+      else (key == '')
       {
-        s += 1;
+        s +=1;
       }
     }
 }
