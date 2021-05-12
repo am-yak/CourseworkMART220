@@ -61,7 +61,7 @@ function draw()
   {
     i = 0;
   }
-  else (s >= fly.length)
+  if (s >= fire.length)
   {
     s = 0;
   }
@@ -86,7 +86,7 @@ function draw()
       {
         x += 1;
       }
-      else (key == '')
+      if (key == '')
       {
         s +=1;
       }
